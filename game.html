@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>games.com</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <h1>Rock <span class="papers">Papers</span> <span class="scissors">Scissors</span></h1>
+    <!-- images section -->
+    <div class="container">
+        <div class="choices" id="rock" >
+            <img class="scale" src="./images_png/rock_img.jpg">
+        </div> 
+        <div class="choices" id="paper">  
+            <img class="scale" src="./images_png/paper_img.jpg">
+        </div>
+        <div class="choices" id="scissors">  
+            <img class="scale" src="./images_png/sciossors_img.jpg">
+        </div>
+    </div>
+    <!-- Score-Boared sections -->
+    <div class="score-boared">
+        <div class="scores">
+            <p id="user-score"> 0</p>
+            <p>You</p>
+        </div>
+        <div class="scores">
+            <p id="com-score" > 0</p>
+            <p>Computer</p>
+        </div>   
+    </div>
+    <!-- message section -->
+    <div class="box">    
+        <div class="msg-container scale">
+            <p id="msg"> Play Your Move </p>
+        </div>
+    </div>
+    <!-- scripts file link  -->
+    <script src="game.js"></script>
+</body>
+</html>
